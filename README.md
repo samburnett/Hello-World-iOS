@@ -1,2 +1,4 @@
-# HelloWorld_smbcp6
-first challenge
+# Hello World Challenge
+Sam Burnett
+
+This is my first iOS application! Woohoo!
