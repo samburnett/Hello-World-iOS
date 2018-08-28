@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		2254A0B02134D82600808146 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2254A0AF2134D82600808146 /* AppDelegate.swift */; };
-		2254A0B22134D82600808146 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2254A0B12134D82600808146 /* ViewController.swift */; };
 		2254A0B52134D82600808146 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2254A0B32134D82600808146 /* Main.storyboard */; };
 		2254A0B72134D82700808146 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2254A0B62134D82700808146 /* Assets.xcassets */; };
 		2254A0BA2134D82700808146 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2254A0B82134D82700808146 /* LaunchScreen.storyboard */; };
 		2254A0C52134D82700808146 /* HelloWorld_smbcp6Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2254A0C42134D82700808146 /* HelloWorld_smbcp6Tests.swift */; };
 		2254A0D02134D82700808146 /* HelloWorld_smbcp6UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2254A0CF2134D82700808146 /* HelloWorld_smbcp6UITests.swift */; };
+		2254A0DE2134D8E400808146 /* HelloWorldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2254A0DD2134D8E400808146 /* HelloWorldViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		2254A0AC2134D82600808146 /* HelloWorld_smbcp6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld_smbcp6.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2254A0AF2134D82600808146 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2254A0B12134D82600808146 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2254A0B42134D82600808146 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2254A0B62134D82700808146 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2254A0B92134D82700808146 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		2254A0CB2134D82700808146 /* HelloWorld_smbcp6UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorld_smbcp6UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2254A0CF2134D82700808146 /* HelloWorld_smbcp6UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorld_smbcp6UITests.swift; sourceTree = "<group>"; };
 		2254A0D12134D82700808146 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2254A0DD2134D8E400808146 /* HelloWorldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				2254A0AF2134D82600808146 /* AppDelegate.swift */,
-				2254A0B12134D82600808146 /* ViewController.swift */,
+				2254A0DD2134D8E400808146 /* HelloWorldViewController.swift */,
 				2254A0B32134D82600808146 /* Main.storyboard */,
 				2254A0B62134D82700808146 /* Assets.xcassets */,
 				2254A0B82134D82700808146 /* LaunchScreen.storyboard */,
@@ -256,7 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2254A0B22134D82600808146 /* ViewController.swift in Sources */,
+				2254A0DE2134D8E400808146 /* HelloWorldViewController.swift in Sources */,
 				2254A0B02134D82600808146 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,7 +431,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7A5C4J744F;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = HelloWorld_smbcp6/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -449,7 +449,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7A5C4J744F;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = HelloWorld_smbcp6/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
